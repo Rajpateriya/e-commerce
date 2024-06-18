@@ -27,7 +27,7 @@ const Header = () => {
                     <Container>
                         <LinkContainer to="/">
                             <Nav.Link >
-                                <Navbar.Brand>Vvork-Tech-Store</Navbar.Brand>
+                                <Navbar.Brand>RP-Tech-Shop</Navbar.Brand>
                             </Nav.Link>
                         </LinkContainer>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -49,8 +49,8 @@ const Header = () => {
                                     </NavDropdown>
 
                                  ) : <LinkContainer to="/login">
-                                 <Nav.Link >
-                                     <Nav.Link><i className="fas fa-user"></i>Sign In</Nav.Link>
+                                 <Nav.Link  >
+                                     <Nav.Link ><i className="fas fa-user"></i>Sign In</Nav.Link>
                                  </Nav.Link>
                              </LinkContainer>
                              }  
